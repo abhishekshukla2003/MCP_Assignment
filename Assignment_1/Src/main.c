@@ -43,16 +43,16 @@ int main(void)
 		DelayMs(500);
 
 		if(accel.x > 3000){
-				led_on1();
+				led_on3();
 			}
 		else
-			led_off1();
+			led_off3();
 
 		if(accel.x < -3000){
-			led_on3();
+			led_on1();
 		}
 		else
-			led_off3();
+			led_off1();
 		if (accel.y > 3000){
 			led_on2();
 		}
